@@ -1,0 +1,86 @@
+
+
+.main-container{
+    height: fit-content;
+    background-color: antiquewhite;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.pink{
+    height: 140px;
+    background-color: rgb(255, 246, 252);
+    border-radius: 5px;
+    padding-left: 10px;
+    /* float: left */
+}
+h4{
+    color: rgb(130, 38, 38);
+    text-align: left;
+    font-size: 17px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.preparation{
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    font: 10px;
+}
+.ingredient-container{
+    margin-top: 25px;
+    text-align: left;
+}
+h2{
+    color: rgb(130, 38, 38);
+    font-size: 20px;
+    text-align: left;
+}
+.ingredient{
+    line-height: 25px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.preparation2 li::before{
+    content: ".";
+    color: rgb(130, 38, 38);
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    
+}
+.ingredient li::before{
+    content: ".";
+    color: rgb(130, 38, 38);
+    margin-left: -2em;
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+}
+.ins{
+    text-align: left;
+}
+
+.instruction li::before{
+    color: rgb(130, 38, 38);
+    margin-left: -2em;
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+}
+.instruction li{
+    text-align: justify;
+}
+table{
+    width: 100%;
+}
+.decimal1{
+    list-style-type: decimal;
+    
+}
+

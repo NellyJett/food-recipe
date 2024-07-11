@@ -1,6 +1,6 @@
-// import { useState } from 'react'
+
 import './App.css'
-import Outer from '../../components/Outer'
+import Outer from './components/Outer'
 
 
 function App() {
